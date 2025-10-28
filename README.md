@@ -1,4 +1,3 @@
- (cd "$(git rev-parse --show-toplevel)" && git apply --3way <<'EOF' 
 diff --git a/README.md b/README.md
 index 6456fedaa43eb0d2802c1f90322ffe0c5ede3339..2f7010171eb1aa598c7a83b28a668f5675e0b926 100644
 --- a/README.md
@@ -127,6 +126,3 @@ index 6456fedaa43eb0d2802c1f90322ffe0c5ede3339..2f7010171eb1aa598c7a83b28a668f56
 +## Licença
 +
 +Distribuição reservada à Ruby Hosting. Consulte o time jurídico antes de redistribuir ou comercializar este tema.
- 
-EOF
-)
